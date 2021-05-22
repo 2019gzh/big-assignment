@@ -1,0 +1,44 @@
+.middle4{
+    overflow: hidden;
+    margin-top: 1.25rem;
+}
+
+.view-conditions{
+    height: 15rem;
+    white-space: nowrap;
+    overflow-y: hidden;
+    padding: .3125rem；
+}
+
+.view-condition{
+    width: 100%;
+    display: inline-grid;
+    /* fr等分空间 */
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: .125rem;
+}
+
+.detail{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .75rem;
+}
+
+.decorations{
+    margin-top: .3125rem;
+    width: 100%;
+    height: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decoration{
+    width: .625rem;
+    height: .25rem;
+    margin-left: .625rem;
+    background-color: rgb(35, 35, 36);
+}

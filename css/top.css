@@ -1,0 +1,63 @@
+.top{
+    width: 100%;
+    height: 29.375rem;
+    background-image: url('../weather-background/moren.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.top_top{
+    width: 100%;
+    height: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    /* 交叉轴的中点对齐 */
+    align-items: center;
+}
+
+.top_left{
+    height: 18.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-weizhi{
+    vertical-align: middle;
+}
+
+.location_name{
+    display: inline-block;
+}
+
+.condition{
+    text-align: center;
+    
+}
+
+.outer{
+    width: 2.5rem;
+    height: 100%;
+    padding: 1rem;
+    top: 0rem;
+}
+.condition_d {
+    width: 1.875rem;
+    height: 3.125rem;
+    border-radius: .3125rem;
+    background-color: rgb(255, 251, 14);
+}
+.condition>p:nth-child(1){
+    font-size: 3.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: .5rem;
+}
+
+.condition>p:nth-child(2){
+    font-size: 1.375rem;
+    margin-bottom: .5rem;
+}
+
+.condition>p:nth-child(3){
+    margin-bottom: 1.875rem;
+}

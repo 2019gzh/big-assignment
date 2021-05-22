@@ -1,0 +1,45 @@
+@import './iconfont.css';
+@import './top.css';
+@import './middle1.css';
+@import './middle2.css';
+@import './middle3.css';
+@import './middle4.css';
+@import './footer.css';
+@import './search.css';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    font-size: 16px;
+    color: #111;
+    background-color: #f1eeeeda;
+}
+
+.icon-ziyuanxhdpi{
+    color: aliceblue;
+}
+.icon-fenxiang{
+    color: aliceblue;
+}
+.iconfont{
+    font-size: 1.5rem;
+    margin: .3125rem .5rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

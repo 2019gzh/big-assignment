@@ -1,0 +1,22 @@
+.middle2{
+    overflow: hidden;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    font-size: .875rem;
+}
+.today-conditions{
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+.today-condition{
+    margin-right: 1rem;
+}
+.today-condition p{
+    padding: .625rem;
+}
+.week-conditions{
+    display: flex;
+    justify-content: space-between;
+}
